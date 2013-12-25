@@ -19,11 +19,6 @@ document.addEventListener("DOMContentLoaded",function(){
             $el.innerHTML = dataPacket[$val] || "no Text";
         });
 
-        this.watchAttribute("ng-mustache",function($el,$attrs,$val,attrName){
-            var text = $el.innerHTML;
-
-        })
-
     });
 
 
@@ -45,12 +40,14 @@ document.addEventListener("DOMContentLoaded",function(){
 
     });
 
+/*
 
     var x = document.getElementsByClassName("controller")[0];
      controller.setAttribute(x,"ng-controller","my-controller2");
 
 
 
+*/
 
 
 
